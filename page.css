@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color:green;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 60px;
+    text-decoration: none;
+    border: solid white;
+  }
+  h2
+  {
+  text-align: center;
+  font-size: 130%;
+  color:black; 
+  font-family: 'Courier New', Courier, monospace;    
+  }
+  h1
+  {
+  font-size: 200%;
+  color:yellow;  
+  border: 5px solid black; 
+  font-family: Verdana;  
+  }
+  div
+  {
+  font-size: 120%;
+  color:black; 
+  background-color: rgb(33, 219, 33); 
+  font-family: 'Courier New', Courier, monospace;  
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  div.gallery img {
+    margin: 24px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 395px;
+  }
+  .footer {
+    background-color:greenyellow;
+    padding: 5px;
+    text-align: left;
+    color: black;
+    float: left;
+    width:100%;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+    .img-container {
+    float: left;
+    width: 30%;
+    padding: 100px;s
+  }
+  body {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  }
+  p
+  {
+  font-size: 50%;
+  }
+  
+  /* On screens that are 768px wide or less, make the menu links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 768px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+    .responsive {
+      width: 100%;
+      margin: 6px 0;
+    }
+  }
+  /* On screens that are 320px wide or less, make the menu links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 320px) {
+      .responsive {
+      width: 100%;
+      margin: 6px 0; 
+    }
+  }
