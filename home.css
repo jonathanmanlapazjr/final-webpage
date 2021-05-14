@@ -148,10 +148,10 @@ body {
     font-weight: bold;
     color:white;       
     }
-    p
+    h2
     {
     font-size: 280%;
-    color:white; 
+    color:rgb(149, 226, 34); 
     }
     * {
   box-sizing: border-box;
